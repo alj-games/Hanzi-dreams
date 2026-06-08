@@ -202,6 +202,134 @@ const hanziDatabase = [
   { char: "飞", pinyin: "fēi",  tone: 1, meaning: "to fly",           category: "Everyday" },
   { char: "机", pinyin: "jī",   tone: 1, meaning: "machine",          category: "Everyday" },
   { char: "门", pinyin: "mén",  tone: 2, meaning: "door, gate",       category: "Everyday" },
+   // ---- Numbers ----
+  { char: "两", pinyin: "liǎng", tone: 3, meaning: "two (of things)",   category: "Numbers" },
+  { char: "半", pinyin: "bàn",   tone: 4, meaning: "half",              category: "Numbers" },
+  { char: "个", pinyin: "gè",    tone: 4, meaning: "(measure word)",    category: "Numbers" },
+
+  // ---- Pronouns & Particles ----
+  { char: "它", pinyin: "tā",    tone: 1, meaning: "it",                   category: "Pronouns" },
+  { char: "的", pinyin: "de",    tone: 5, meaning: "(possessive particle)",category: "Pronouns" },
+  { char: "了", pinyin: "le",    tone: 5, meaning: "(completed-action particle)", category: "Pronouns" },
+  { char: "不", pinyin: "bù",    tone: 4, meaning: "not, no",              category: "Pronouns" },
+  { char: "也", pinyin: "yě",    tone: 3, meaning: "also, too",            category: "Pronouns" },
+  { char: "都", pinyin: "dōu",   tone: 1, meaning: "all, both",            category: "Pronouns" },
+  { char: "很", pinyin: "hěn",   tone: 3, meaning: "very",                 category: "Pronouns" },
+  { char: "和", pinyin: "hé",    tone: 2, meaning: "and, with",            category: "Pronouns" },
+
+  // ---- People & Family ----
+  { char: "您", pinyin: "nín",   tone: 2, meaning: "you (polite)",       category: "People & Family" },
+  { char: "爷", pinyin: "yé",    tone: 2, meaning: "grandfather",        category: "People & Family" },
+  { char: "奶", pinyin: "nǎi",   tone: 3, meaning: "grandmother; milk",  category: "People & Family" },
+  { char: "儿", pinyin: "ér",    tone: 2, meaning: "son, child",         category: "People & Family" },
+  { char: "师", pinyin: "shī",   tone: 1, meaning: "teacher (老师)",      category: "People & Family" },
+  { char: "生", pinyin: "shēng", tone: 1, meaning: "to be born; student",category: "People & Family" },
+  { char: "王", pinyin: "wáng",  tone: 2, meaning: "king (surname)",     category: "People & Family" },
+
+  // ---- Body ----
+  { char: "耳", pinyin: "ěr",    tone: 3, meaning: "ear",            category: "Body" },
+  { char: "牙", pinyin: "yá",    tone: 2, meaning: "tooth",          category: "Body" },
+  { char: "鼻", pinyin: "bí",    tone: 2, meaning: "nose",           category: "Body" },
+  { char: "身", pinyin: "shēn",  tone: 1, meaning: "body",           category: "Body" },
+  { char: "体", pinyin: "tǐ",    tone: 3, meaning: "body (身体)",     category: "Body" },
+  { char: "面", pinyin: "miàn",  tone: 4, meaning: "face; noodles",  category: "Body" },
+  { char: "毛", pinyin: "máo",   tone: 2, meaning: "hair, fur",      category: "Body" },
+
+  // ---- Nature ----
+  { char: "树", pinyin: "shù",   tone: 4, meaning: "tree",           category: "Nature" },
+  { char: "样", pinyin: "yàng",  tone: 4, meaning: "kind, type",     category: "Nature" },
+  { char: "川", pinyin: "chuān", tone: 1, meaning: "river",          category: "Nature" },
+  { char: "河", pinyin: "hé",    tone: 2, meaning: "river",          category: "Nature" },
+  { char: "海", pinyin: "hǎi",   tone: 3, meaning: "sea",            category: "Nature" },
+  { char: "冰", pinyin: "bīng",  tone: 1, meaning: "ice",            category: "Nature" },
+  { char: "雪", pinyin: "xuě",   tone: 3, meaning: "snow",           category: "Nature" },
+  { char: "光", pinyin: "guāng", tone: 1, meaning: "light",          category: "Nature" },
+  { char: "亮", pinyin: "liàng", tone: 4, meaning: "bright",         category: "Nature" },
+  { char: "春", pinyin: "chūn",  tone: 1, meaning: "spring",         category: "Nature" },
+  { char: "夏", pinyin: "xià",   tone: 4, meaning: "summer",         category: "Nature" },
+  { char: "秋", pinyin: "qiū",   tone: 1, meaning: "autumn",         category: "Nature" },
+  { char: "冬", pinyin: "dōng",  tone: 1, meaning: "winter",         category: "Nature" },
+  { char: "早", pinyin: "zǎo",   tone: 3, meaning: "early, morning", category: "Nature" },
+  { char: "晚", pinyin: "wǎn",   tone: 3, meaning: "evening, late",  category: "Nature" },
+
+  // ---- Animals ----
+  { char: "虫", pinyin: "chóng", tone: 2, meaning: "insect",   category: "Animals" },
+  { char: "兔", pinyin: "tù",    tone: 4, meaning: "rabbit",   category: "Animals" },
+  { char: "龙", pinyin: "lóng",  tone: 2, meaning: "dragon",   category: "Animals" },
+  { char: "虎", pinyin: "hǔ",    tone: 3, meaning: "tiger",    category: "Animals" },
+  { char: "象", pinyin: "xiàng", tone: 4, meaning: "elephant", category: "Animals" },
+  { char: "熊", pinyin: "xióng", tone: 2, meaning: "bear",     category: "Animals" },
+
+  // ---- Verbs ----
+  { char: "走", pinyin: "zǒu",   tone: 3, meaning: "to walk",      category: "Verbs" },
+  { char: "跑", pinyin: "pǎo",   tone: 3, meaning: "to run",       category: "Verbs" },
+  { char: "坐", pinyin: "zuò",   tone: 4, meaning: "to sit",       category: "Verbs" },
+  { char: "站", pinyin: "zhàn",  tone: 4, meaning: "to stand",     category: "Verbs" },
+  { char: "睡", pinyin: "shuì",  tone: 4, meaning: "to sleep",     category: "Verbs" },
+  { char: "笑", pinyin: "xiào",  tone: 4, meaning: "to laugh",     category: "Verbs" },
+  { char: "哭", pinyin: "kū",    tone: 1, meaning: "to cry",       category: "Verbs" },
+  { char: "给", pinyin: "gěi",   tone: 3, meaning: "to give",      category: "Verbs" },
+  { char: "找", pinyin: "zhǎo",  tone: 3, meaning: "to look for",  category: "Verbs" },
+  { char: "拿", pinyin: "ná",    tone: 2, meaning: "to hold, take",category: "Verbs" },
+  { char: "用", pinyin: "yòng",  tone: 4, meaning: "to use",       category: "Verbs" },
+  { char: "知", pinyin: "zhī",   tone: 1, meaning: "to know",      category: "Verbs" },
+  { char: "在", pinyin: "zài",   tone: 4, meaning: "to be at",     category: "Verbs" },
+  { char: "住", pinyin: "zhù",   tone: 4, meaning: "to live, stay",category: "Verbs" },
+  { char: "等", pinyin: "děng",  tone: 3, meaning: "to wait",      category: "Verbs" },
+
+  // ---- Adjectives ----
+  { char: "美", pinyin: "měi",   tone: 3, meaning: "beautiful",  category: "Adjectives" },
+  { char: "难", pinyin: "nán",   tone: 2, meaning: "difficult",  category: "Adjectives" },
+  { char: "易", pinyin: "yì",    tone: 4, meaning: "easy",       category: "Adjectives" },
+  { char: "远", pinyin: "yuǎn",  tone: 3, meaning: "far",        category: "Adjectives" },
+  { char: "近", pinyin: "jìn",   tone: 4, meaning: "near",       category: "Adjectives" },
+  { char: "贵", pinyin: "guì",   tone: 4, meaning: "expensive",  category: "Adjectives" },
+  { char: "累", pinyin: "lèi",   tone: 4, meaning: "tired",      category: "Adjectives" },
+  { char: "忙", pinyin: "máng",  tone: 2, meaning: "busy",       category: "Adjectives" },
+  { char: "对", pinyin: "duì",   tone: 4, meaning: "correct",    category: "Adjectives" },
+  { char: "错", pinyin: "cuò",   tone: 4, meaning: "wrong",      category: "Adjectives" },
+  { char: "真", pinyin: "zhēn",  tone: 1, meaning: "real, true", category: "Adjectives" },
+
+  // ---- Position & Time ----
+  { char: "间", pinyin: "jiān",  tone: 1, meaning: "between, room", category: "Position & Time" },
+  { char: "点", pinyin: "diǎn",  tone: 3, meaning: "o'clock, dot",  category: "Position & Time" },
+  { char: "分", pinyin: "fēn",   tone: 1, meaning: "minute",        category: "Position & Time" },
+  { char: "周", pinyin: "zhōu",  tone: 1, meaning: "week",          category: "Position & Time" },
+  { char: "期", pinyin: "qī",    tone: 1, meaning: "period (星期)",  category: "Position & Time" },
+  { char: "昨", pinyin: "zuó",   tone: 2, meaning: "yesterday",     category: "Position & Time" },
+  { char: "现", pinyin: "xiàn",  tone: 4, meaning: "present, now",  category: "Position & Time" },
+  { char: "边", pinyin: "biān",  tone: 1, meaning: "side",          category: "Position & Time" },
+
+  // ---- Food & Drink ----
+  { char: "米", pinyin: "mǐ",    tone: 3, meaning: "rice (grain)", category: "Food & Drink" },
+  { char: "肉", pinyin: "ròu",   tone: 4, meaning: "meat",         category: "Food & Drink" },
+  { char: "蛋", pinyin: "dàn",   tone: 4, meaning: "egg",          category: "Food & Drink" },
+  { char: "果", pinyin: "guǒ",   tone: 3, meaning: "fruit",        category: "Food & Drink" },
+  { char: "酒", pinyin: "jiǔ",   tone: 3, meaning: "alcohol",      category: "Food & Drink" },
+  { char: "糖", pinyin: "táng",  tone: 2, meaning: "sugar",        category: "Food & Drink" },
+  { char: "盐", pinyin: "yán",   tone: 2, meaning: "salt",         category: "Food & Drink" },
+  { char: "甜", pinyin: "tián",  tone: 2, meaning: "sweet",        category: "Food & Drink" },
+  { char: "苦", pinyin: "kǔ",    tone: 3, meaning: "bitter",       category: "Food & Drink" },
+
+  // ---- Colours ----
+  { char: "色", pinyin: "sè",    tone: 4, meaning: "colour", category: "Colours" },
+  { char: "紫", pinyin: "zǐ",    tone: 3, meaning: "purple", category: "Colours" },
+  { char: "灰", pinyin: "huī",   tone: 1, meaning: "grey",   category: "Colours" },
+  { char: "粉", pinyin: "fěn",   tone: 3, meaning: "pink",   category: "Colours" },
+
+  // ---- Everyday ----
+  { char: "路", pinyin: "lù",    tone: 4, meaning: "road",            category: "Everyday" },
+  { char: "桥", pinyin: "qiáo",  tone: 2, meaning: "bridge",          category: "Everyday" },
+  { char: "房", pinyin: "fáng",  tone: 2, meaning: "house, room",     category: "Everyday" },
+  { char: "店", pinyin: "diàn",  tone: 4, meaning: "shop",            category: "Everyday" },
+  { char: "医", pinyin: "yī",    tone: 1, meaning: "doctor, medicine",category: "Everyday" },
+  { char: "院", pinyin: "yuàn",  tone: 4, meaning: "courtyard",       category: "Everyday" },
+  { char: "钟", pinyin: "zhōng", tone: 1, meaning: "clock, bell",     category: "Everyday" },
+  { char: "表", pinyin: "biǎo",  tone: 3, meaning: "watch, form",     category: "Everyday" },
+  { char: "灯", pinyin: "dēng",  tone: 1, meaning: "lamp",            category: "Everyday" },
+  { char: "床", pinyin: "chuáng",tone: 2, meaning: "bed",             category: "Everyday" },
+  { char: "桌", pinyin: "zhuō",  tone: 1, meaning: "table",           category: "Everyday" },
+  { char: "椅", pinyin: "yǐ",    tone: 3, meaning: "chair",           category: "Everyday" },
 
 ];
 
